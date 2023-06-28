@@ -87,6 +87,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Post-Custom */
+.button.button-post-cust {
+  color: #000000;
+  background-color: #fffb00;
+  border: 1px solid #212121;
+}
+.button.button-post-cust:hover,
+.button.button-post-cust:focus {
+  filter: brightness(90%);
+}
+
 /* Website-Custom */
 .button.button-web-cust {
   color: #ffffff;
