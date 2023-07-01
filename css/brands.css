@@ -87,21 +87,68 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Post-Custom */
-.button.button-post-cust {
-  color: #000000;
-  background-color: #fffb00;
+/* Email */
+.button.button-email {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+.button.button-email:hover,
+.button.button-email:focus {
+  filter: brightness(90%);
+}
+
+/* Post-Custom-1 */
+.button.button-post-cust-1 {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   border: 1px solid #212121;
 }
-.button.button-post-cust:hover,
-.button.button-post-cust:focus {
+.button.button-post-cust-1:hover,
+.button.button-post-cust-1:focus {
+  filter: brightness(90%);
+}
+
+/* Post-Custom-2 */
+.button.button-post-cust-2 {
+  color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(260deg 100% 23%) 11%,
+    hsl(279deg 100% 27%) 22%,
+    hsl(298deg 100% 30%) 33%,
+    hsl(318deg 100% 33%) 44%,
+    hsl(337deg 100% 37%) 56%,
+    hsl(357deg 100% 40%) 67%,
+    hsl(16deg 100% 43%) 78%,
+    hsl(36deg 100% 47%) 89%,
+    hsl(55deg 100% 50%) 100%
+  );
+  border: 1px solid #212121;
+}
+.button.button-post-cust-2:hover,
+.button.button-post-cust-2:focus {
+  filter: brightness(90%);
+}
+
+
+/* Post-Custom-3 */
+.button.button-post-cust-3 {
+  color: #ffffff;
+  background: #E9032E;
+  background: linear-gradient(135deg, #E9032E, #a9f0f5);
+  border: 1px solid #212121;
+}
+.button.button-post-cust-3:hover,
+.button.button-post-cust-3:focus {
   filter: brightness(90%);
 }
 
 /* Website-Custom */
 .button.button-web-cust {
   color: #ffffff;
-  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+  background: rgb(2,0,36);
+  background: linear-gradient(187deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 .button.button-web-cust:hover,
 .button.button-web-cust:focus {
